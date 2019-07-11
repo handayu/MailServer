@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\MailProcessor\bin\Debug\MailProcessor.exe.config
+C:\Users\Administrator\Desktop\MailProcessor\bin\Debug\MailProcessor.exe
+C:\Users\Administrator\Desktop\MailProcessor\bin\Debug\MailProcessor.pdb
+C:\Users\Administrator\Desktop\MailProcessor\obj\Debug\MailProcessor.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\MailProcessor\obj\Debug\MailProcessor.exe
+C:\Users\Administrator\Desktop\MailProcessor\obj\Debug\MailProcessor.pdb
+C:\Users\Administrator\Desktop\MailProcessor\obj\Debug\MailProcessor.csprojAssemblyReference.cache

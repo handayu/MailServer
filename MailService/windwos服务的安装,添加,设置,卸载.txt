@@ -1,0 +1,50 @@
+1.https://blog.csdn.net/xiaoguidangjiajia/article/details/52371354
+
+
+2.注意定时器不支持windowsform 的 timer，不会触发时间循环。注意要用原生的线程timer
+
+
+3.由于demo的框架使用的是4.5的，所以输入 cd C:\Windows\Microsoft.NET\Framework\v4.0.30319 回车 
+切换当前目录，此处需要注意的是，在C:\Windows\Microsoft.NET\Framework目录下有很多类似版本，具体去哪个目录要看项目的运行环境，例 如果是.net framework2.0则需要输入 cd C:\Windows\Microsoft.NET\Framework\v2.0.50727
+c . 输入 InstallUtil.exe E:…\TestServert.exe 回车 
+说明：E:…\TestServer.exe表示项目生成的exe文件位置
+9 – >卸载服务
+
+卸载很简单，打开cmd， 直接输入 sc delete TestServer便可.删除服务的时候，E:…\TestServert.exe这个路径必须存在，否则会删除不成功。
+
+
+https://jingyan.baidu.com/article/fa4125acb71a8628ac709226.html  步骤
+
+cd C:\Windows\Microsoft.NET\Framework\v4.0.30319
+
+installutil.exe C:\MailService\MailService.exe
+
+cd c:\windows\system32
+
+sc delete HYMailService
+
+安装/卸载Windows服务
+
+常用的工具有Sc.exe(位于system32目录下) 和 InstallUtil.exe(一般位于microsoft.net\framework\v1.1.4322目录) :
+
+具体用法：
+
+Sc.exe
+
+1、在开始–运行打上cmd回车，弹出dos界面
+
+2、输入sc create inforcenter binPath= “C:\ProgramFiles\HoteamSoft\Inforcenterserver\InforCenterWindowsService\InforCenterservice.exe”
+
+然后回车，提示[sc] Createservice 成功
+
+注意：binPath=后面有一个空格，另外，路径改为服务器安装的路径即可
+
+3、然后启动inforcenter服务就行了
+
+InstallUtil.exe
+
+安装：C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\InstallUtil C:\Progra~1\HoteamSoft\InforCenterServer\InforCenterWindowsService\InforCenterService.exe
+
+卸载: C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\InstallUtil.exe C:\Progra~1\HoteamSoft\InforCenterServer\InforCenterWindowsService\InforCenterService.exe /u
+
+两者区别：InstallUtil.exe不支持长文件名和服务名称重命名。

@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\MailService\bin\Debug\MailService.exe.config
+C:\Users\Administrator\Desktop\MailService\bin\Debug\MailService.exe
+C:\Users\Administrator\Desktop\MailService\bin\Debug\MailService.pdb
+C:\Users\Administrator\Desktop\MailService\obj\Debug\MailService.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\MailService\obj\Debug\MailService.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\MailService\obj\Debug\MailService.exe
+C:\Users\Administrator\Desktop\MailService\obj\Debug\MailService.pdb
+C:\Users\Administrator\Desktop\MailService\obj\Debug\MailService.ProjectInstaller.resources
+C:\Users\Administrator\Desktop\MailService\obj\Debug\MailService.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\MailService\obj\Debug\MailService.csproj.CopyComplete

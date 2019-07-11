@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailService", "MailService.csproj", "{96D52B0E-C4F8-454D-BEBD-9582A2636FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailProcessor", "..\MailProcessor\MailProcessor.csproj", "{C5820952-F982-4CAE-977B-919B2D11F55B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96D52B0E-C4F8-454D-BEBD-9582A2636FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D52B0E-C4F8-454D-BEBD-9582A2636FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D52B0E-C4F8-454D-BEBD-9582A2636FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D52B0E-C4F8-454D-BEBD-9582A2636FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5820952-F982-4CAE-977B-919B2D11F55B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5820952-F982-4CAE-977B-919B2D11F55B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5820952-F982-4CAE-977B-919B2D11F55B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5820952-F982-4CAE-977B-919B2D11F55B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BBA98EB-2FDA-4D31-9BC2-6B7033A70E76}
+	EndGlobalSection
+EndGlobal
